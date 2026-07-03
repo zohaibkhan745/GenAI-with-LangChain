@@ -1,4 +1,23 @@
+# Environments
+venv/
+env/
+.venv/
+
+# Security / Secrets
 .env
-venv
-*.pyc
-__pycache__
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook (if you plan to use them later)
+.ipynb_checkpoints/
